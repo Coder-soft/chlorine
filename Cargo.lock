@@ -737,6 +737,23 @@ dependencies = [
 ]
 
 [[package]]
+name = "chlorine"
+version = "0.1.0"
+dependencies = [
+ "arboard",
+ "clipboard",
+ "dirs",
+ "eframe",
+ "egui",
+ "global-hotkey",
+ "image 0.24.9",
+ "poll-promise",
+ "serde",
+ "serde_json",
+ "tray-icon",
+]
+
+[[package]]
 name = "clipboard"
 version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2161,23 +2178,6 @@ dependencies = [
  "num-traits",
  "png 0.18.0",
  "tiff 0.10.3",
-]
-
-[[package]]
-name = "image-search-app"
-version = "0.1.0"
-dependencies = [
- "arboard",
- "clipboard",
- "dirs",
- "eframe",
- "egui",
- "global-hotkey",
- "image 0.24.9",
- "poll-promise",
- "serde",
- "serde_json",
- "tray-icon",
 ]
 
 [[package]]
